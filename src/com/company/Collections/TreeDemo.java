@@ -6,12 +6,12 @@ public class TreeDemo {
     public static void main(String[] args) {
         Tree<String> tree = new Tree<>("root");
         Tree.Node root = tree.getRoot();
+       // Tree.Node node1=tree.new Node(root,"n1");
+       // root.removeChild(node1);
         root.addChild(tree.new Node(root,"n1"));
         root.addChild(tree.new Node(root,"n2"));
         root.addChild(tree.new Node(root,"n3"));
         root.preOrder(root);
-
-       
 
     }
 }
